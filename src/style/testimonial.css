@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
+.cnt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+}
+.testi{
+    position: relative;
+    z-index: 1;
+}
+
+
+.first-cnt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.flat-container{
+ width: 300px;
+ height: 400px;
+ background: cornsilk;
+ position: relative;
+ border-radius: 20px;
+ box-shadow: 5px 5px 17px 1px #dee0da;
+ margin: 20px 20px;
+
+}
+.flat-container1{
+    width: 500px;
+    height: 400px;
+    background: cornsilk;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 5px 17px 1px #dee0da;
+    margin: 20px 20px;
+   
+   
+}
+
+.flat-container .center{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top:130px;
+    left:70px;
+    border:5px solid cornsilk;
+    user-select: none;
+
+}
+
+.flat-container1 .center{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top:180px;
+    left:175px;
+    border:5px solid cornsilk;
+    user-select: none;
+
+}
+
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  rgb(183, 138, 228);
+    width: 300px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 19px 19px 0px 0px ;
+  
+}
+
+.cover1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  cornflowerblue;
+    width: 500px;
+    height: 250px;
+    z-index: 0;
+    border-radius: 19px 19px 0px 0px ;
+  
+}
+
+.text{
+    font-family: 'Playfair Display', serif;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.text1{
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+body{
+
+    background: rgb(255, 255, 255);
+    scrollbar-width:100px;
+
+}
+
+
+.star{
+    position: relative;
+    top:300px;
+    left:95px;
+    color: darkorange;
+}
+.star1{
+    position: relative;
+    top:340px;
+    left:195px;
+    color: darkorange;
+}
+
+.pasiv{
+    color:grey;
+}
+.bk{
+    position: relative;
+    z-index: -2;
+    top: -200px;
+    left: -100px;
+    width: 500px;
+    height: 600px;
+}
+
+
+.dott{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 50px;
+    z-index: -1;
+}
+.dott1{
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    width: 50px;
+    z-index: -1;
+}
+
+
+
+.dott11{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    width: 50px;
+    z-index: -1;
+}
+.dott12{
+    position: absolute;
+    top: 130px;
+    left: 420px;
+    width: 50px;
+    z-index: -1;
+}
+.lol{
+ border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+ background-color: hotpink;
+ width: 500px;
+ height: 00px;
+ position: absolute;
+}

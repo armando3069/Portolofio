@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+
+.wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftSide a {
+        text-decoration: none;
+        font-size: 30px;
+        color:  rgb(183, 138, 228);
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+
+
+.hamburger{
+    width: 27px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    .line1,.line2,.line3{
+        width: 100%;
+        height: 3px;
+        background-color: rgb(183, 138, 228);
+        margin: 3px;
+        transition: all 1s ease;
+        transform-origin: left;
+    }
+   
+}
+
+
+
+&.active{
+    transition:all 0.8s ease;
+    .leftSide a{
+        color: rgb(255, 255, 255);
+    }
+    background-color: rgb(183, 138, 228);
+  
+    .line1 , .line2 , .line3{
+     background-color: rgb(255, 255, 255);
+    
+
+    }
+
+    .line1{
+        transform: rotate(45deg);
+
+    }
+
+    .line2{
+        opacity: 0;
+    }
+
+    .line3{
+        transform: rotate(-45deg);
+
+    }
+
+}
+
+
+
+
+}
